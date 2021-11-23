@@ -1,61 +1,91 @@
 
 body{
-    display: grid;
-    grid-template-columns: max-content;
+    grid-template-rows: repeat(3, 258px);
+    grid-template-columns: repeat(3, 475px);
     background-color: #AD0101;
     height: auto;
     width: auto;
+    margin-top: 79px;
 }
 
 
 
 .title{
-    display: grid;
-    grid-template-columns:max-content;
     background-color: rgb(0, 0, 0, 60%);
     border:black;
     border-style:groove;
     border-radius: 99px;
+    display: grid;
+    grid-template-columns: repeat(3, 402px);
+    grid-template-rows: 221px;
 
-    width: 1417px;
-    height: 352px;
-    margin: 66px 0px 0px 0px;
+    width: 1209px;
+    height: 219px;
+    margin: 18px 0px 57px 98px;
 }
 #uno{
     order: 2;
-
-    grid-column-end: 2;
     max-width: 949px;
-    height: 327px;
-    margin: -237px 0px -53px 412px;
+    height: 275px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: -33px 0px 0px 0px;
 }
 #back{
-    grid-column: auto;
     max-width: 601px;
     height: 239px;
-    margin: -87px 323px 19px 940px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: -89px 0px 0px -163px;
 
 }
 
-.table{
-    border: solid white;
-    background-color: solid black;
-    display: grid;
-    height: 50vw;
-    width: 50vw;
 
+
+.buttons{
+    background-color: rgb(0, 0, 0, 60%);
+    border:black;
+    border-radius: 99px;
+    border-style:groove;
+    width: 1418px;
+    height: 328px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.slot{
-    background-color: greenyellow;
+#start{
+    height: 83px;
+    width: 214px;
+    border:black;
+    border-style:groove;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#score{
+    height: 83px;
+    width: 214px;
+    border:black;
+    border-style:groove;
+    border-radius: 99px;
+}
+#reset{
+    height: 83px;
+    width: 214px;
+    border:black;
+    border-style:groove;
+    border-radius: 99px;
+}
+.unoStart{
+    max-width: 191px;
+    position: relative;
 
 }
-
-.controlPanel{
-    background-color: grey;
-    height: 81px;
-    width: 339px;
-    margin: 785px 12px 96px;
-
-}
-
