@@ -5,12 +5,7 @@ body{
 }
 
 .table{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-color: black;
-    width: 100vw; 
-    height: 100vh;
+..
 
 }
 
@@ -45,7 +40,7 @@ body{
 
 
 .cards{
-    background-color:blue;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -79,10 +74,10 @@ body{
     grid-row: 4;
 }
 
-.horizontal1{
-    background-color: blueviolet;
+#card{
     width: 12%;
     height: 50%;
+    font-size: 10px;
 }
 .horizontal2{
     background-color: blueviolet;
@@ -98,4 +93,50 @@ body{
     background-color: blueviolet;
     width: 50%;
     height: 12%;
+}
+
+.hidep1{
+    display: none;
+}
+.hidep2{
+    display: none;
+}
+.hidep3{
+    display: none;
+}
+.hidep4{
+    display: none;
+}
+
+/* 
+.hidep4{
+    display: none;
+} */
+
+.blue{
+    background-color: blue;
+    width: 12%;
+    height: 50%;
+    font-size: 5px;
+}
+
+.red{
+    background-color: red;
+    width: 12%;
+    height: 50%;
+    font-size: 5px;
+}
+
+.yellow{
+    background-color: yellow;
+    width: 12%;
+    height: 50%;
+    font-size: 5px;
+}
+
+.green{
+    background-color: green;
+    width: 12%;
+    height: 50%;
+    font-size: 5px;
 }
